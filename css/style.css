@@ -443,15 +443,7 @@ section#contact div.inner ul li p span {color: #6b8e23;}
   100%{opacity: 0;}
 }
 
-/* 사람과 구름을 오른쪽으로 이동시키는 키프레임 */
-@keyframes flow {
-  0%  {left: 0; opacity: 0;}
-  10% {opacity: 1;}
-  80% {opacity: 1;}
-  100%{left: 90%; opacity: 0;}
-}
-
-@media screen and (max-width: 1599px) {
+/* @media screen and (max-width: 1599px) {
   header {width: 350px;}
 
   main {margin-left: 350px;}
@@ -491,4 +483,4 @@ section#contact div.inner ul li p span {color: #6b8e23;}
   img.sun {position: absolute; top: 400px;}
   div.info p {display: none;}
   .pie-chart1 {margin: 0 10px;}
-}
+} */
