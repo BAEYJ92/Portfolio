@@ -32,7 +32,7 @@ const swiper = new Swiper('.swiper', {
 
   spaceBetween: 0, // 패널 사이의 간격을 50px로 설정 
   grabCursor: true, // 스와이프 시 마우스 포인터 모양 변경
-  slidesPerView: 3, // css에 지정한 슬라이더의 크기를 반영
+  slidesPerView: 1, // css에 지정한 슬라이더의 크기를 반영
   centeredSlides: true, // 슬라이드 패널을 항상 가운데로 반환
   speed: 500, // 슬라이더 이동 속도 지정
   // effect: 'cards', // 이팩트 효과
