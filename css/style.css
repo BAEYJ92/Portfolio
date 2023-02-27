@@ -10,7 +10,7 @@ body::-webkit-scrollbar { width: 20px; }
 body::-webkit-scrollbar-thumb { background-color: #6b8e23; border-radius: 25px; background-clip: padding-box; border: 3px solid transparent; }
 body::-webkit-scrollbar-track { background-color: #fff; }
 
-div.inner {display: inherit;}
+/* div.inner {outline: 1px solid red;} */
 
 div#wrap { width: 100%; }
 
@@ -76,8 +76,8 @@ section#about div.inner div.info p span { color: #6b8e23; font-size: 24px; font-
 section#skill div.inner { width: 60%; height: 100vh; margin-left: 480px; background-color: #fff; }
 section#skill div.inner h2 { padding: 100px 0 30px; font-size: 28px;}
 section#skill div.inner hr { width: 5%; margin-top: 1%; border: 2.5px solid #6b8e23; }
-section#skill div.inner div.grp { height: 100vh; width: 100vw; }
-.pie-chart1, .pie-chart2, .pie-chart3, .pie-chart4 { margin-top: 100px; margin-left: 1.5em; }
+section#skill div.inner div.grp { height: 50%; width: 100%; }
+.pie-chart1, .pie-chart2, .pie-chart3, .pie-chart4 {margin: 75px 15px;}
 
 .pie-chart1 {
   position: relative; border-spacing: 100px;
