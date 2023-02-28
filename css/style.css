@@ -450,7 +450,7 @@ section#contact div.inner ul li p span {color: #6b8e23;}
   main section article {width: 25%;}
 } */
 
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 480px) {
   header {position: fixed; left: 0; width: 20%;}
   header h1 {font: bold 24px 'Obitron'; margin-left: -10%;}
   header div.inner ul#gnb li a { width: 159px; margin-left: -10%;}
