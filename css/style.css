@@ -475,7 +475,7 @@ section#contact div.inner ul li p span {color: #6b8e23;}
 
 }
 
-@media screen and (max-width: 539px) {
+@media screen and (max-width: 480px) {
   header { width: 20%;}
   header h1 {margin-left: -30px;}
   header ul#gnb li {margin-left: -30px;}
