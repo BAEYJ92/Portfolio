@@ -515,28 +515,36 @@ section#contact div.inner ul li p span {color: #6b8e23;}
   .title h1 { margin-top: -5.7rem; margin-left: -10.5rem; width: 300px;}
   .title a {position: absolute; top: 14em; left: 7.5em; width: 5em;}
 
-  section#about div.inner { margin-left: 100px; }
+  section#about div.inner { margin-left: 7rem; }
+  section#about div.inner h2 {margin-top: -1em; }
+  section#about div.inner img {width: 16.5rem; height: 18rem;}
   section#about div.inner div.info p {display: none;}
 
-  section#skill div.inner { margin-left: 100px;}
-  section#skill div.inner div.grp {margin-left: 0px;}
-  section#skill div.inner .pie-chart1 {position: relative; opacity: .1;}
+  section#skill div.inner { margin-left: 7rem;}
+  section#skill div.inner h2 {margin-top: -1em;}
+  section#skill div.inner div.grp {margin-left: 1rem; height: 30rem;}
+  section#skill div.inner .pie-chart1 {position: relative; opacity: .1; top: -10rem;}
   section#skill div.inner .pie-chart1:hover {z-index: 1; opacity: 1; box-shadow: 5px 5px 50px #e44d26, -5px -5px 50px #e44d26;}
-  section#skill div.inner .pie-chart2 {position: absolute; top: 252px; left: 110px; opacity: .1;}
+  section#skill div.inner .pie-chart2 {position: absolute; top: -1rem; left: 0.7rem; opacity: .1;}
   section#skill div.inner .pie-chart2:hover {z-index: 1; opacity: 1; box-shadow: 5px 5px 50px #1572b6, -5px -5px 50px #1572b6;}
-  section#skill div.inner .pie-chart3 {position: absolute; top: 352px; left: 110px; opacity: .1;}
+  section#skill div.inner .pie-chart3 {position: absolute; top: 8rem; left: 0.7rem; opacity: .1;}
   section#skill div.inner .pie-chart3:hover {z-index: 1; opacity: 1; box-shadow: 5px 5px 50px #ffd800, -5px -5px 50px #ffd800;}
-  section#skill div.inner .pie-chart4 {position: absolute; top: 452px; left: 110px; opacity: .1;}
+  section#skill div.inner .pie-chart4 {position: absolute; top: 17rem; left: 0.7rem; opacity: .1;}
   section#skill div.inner .pie-chart4:hover {z-index: 1; opacity: 1; box-shadow: 5px 5px 50px #a259ff, -5px -5px 50px #a259ff;}
 
-  section#work div.inner {margin-left: 100px;}
-  section#work div.inner div.swiper {margin-left: 10px;}
+  section#work div.inner {margin-left: 7rem;}
+  section#work div.inner h2 {margin-top: -1em;}
+  section#work div.inner div.swiper {margin-left: -0.5rem; margin-top: 3rem; width: 17.7rem;}
 
-  section#contact video {display: none;}
-  section#contact div.inner {margin-left: 100px;}
-  section#contact div.inner p {margin-left: 0px;}
-  section#contact div.inner ul {margin-left: -100px; margin-top: 50px; background-color: #333; width: 350px;}
-  section#contact div.inner ul li p{color: #fff;}
+  section#contact video {object-fit: cover;}
+  section#contact div.inner {margin-left: 7rem;}
+  section#contact div.inner h2 {margin-top: -1em;}
+  section#contact div.inner p {margin-left: 0em;}
+  section#contact div.inner ul {width: 16.5rem; margin-left: 0rem; margin-top: 2rem; background-color: #fff; opacity: .4;}
+  section#contact div.inner ul li {width: 16.5em; margin-left: 0rem;}
+  section#contact div.inner ul li i {display: none;}
+  section#contact div.inner ul li p span {font-size: 1em;}
+  section#contact div.inner ul li p {font-size: 15px; font-weight: bold; color: #111;}
 }
 
 @media screen and (max-width: 320px) {
