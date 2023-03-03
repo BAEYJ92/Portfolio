@@ -512,12 +512,16 @@ section#contact div.inner ul li p span {color: #6b8e23;}
   header div.inner h1 {margin-left: -1.5em; margin-top: -1em;}
   header div.inner ul#gnb li a {margin-left: -2em;  width: 127px;}
   header div.inner ul#gnb li a:hover { width: 127px; background-color: #E5C1C5; color: #111; font-weight: bold; }
-  .title h1 { margin-top: -5.7rem; margin-left: -10.5rem; width: 300px;}
-  .title a {position: absolute; top: 14em; left: 7.5em; width: 5em;}
+  
+  section#home div.title h1 { margin-top: 4rem; margin-left: -16rem; color: #fff; font-size: 28px; font-weight: bold;}
+  section#home div.title h1 span {color: #85b12d; font-size: 28px;}
+  .title a {position: absolute; top: 18em; left: 10.5em; width: 15em; font: bold 14px 'Orbitron'; color: #fff; }
+  section#home article.sky img.sun {display: inline-block; width: 100px; height: 150px; position: absolute; bottom: 5rem; left: 12.5rem;}
+  section#home article.town img.day {display: inline-block; width: 400px; height: 400px; position: absolute; bottom: -15rem; left: 3rem;}
 
   section#about div.inner { margin-left: 7rem; }
-  section#about div.inner h2 {margin-top: -1em; }
-  section#about div.inner img {width: 16.5rem; height: 18rem;}
+  section#about div.inner h2 {margin-top: -1em;}
+  section#about div.inner img {width: 16.5rem; height: 20rem;}
   section#about div.inner div.info p {display: none;}
 
   section#skill div.inner { margin-left: 7rem;}
@@ -534,7 +538,7 @@ section#contact div.inner ul li p span {color: #6b8e23;}
 
   section#work div.inner {margin-left: 7rem;}
   section#work div.inner h2 {margin-top: -1em;}
-  section#work div.inner div.swiper {margin-left: -0.5rem; margin-top: 3rem; width: 17.7rem;}
+  section#work div.inner div.swiper {margin-left: -0.5rem; margin-top: 3rem; width: 17rem;}
 
   section#contact video {object-fit: cover;}
   section#contact div.inner {margin-left: 7rem;}
