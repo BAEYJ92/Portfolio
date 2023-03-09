@@ -39,19 +39,19 @@ btnStop.addEventListener('click', function(){
   swiper.autoplay.stop();
 });
 
-//   // 메뉴 클릭 시 상하스크롤 하기
-//   $('ul#gnb li').click(function(e){
+  // 메뉴 클릭 시 상하스크롤 하기
+  $('ul#gnb li').click(function(e){
     
-//     // 고유의 기능을 막아준다.(a 태그)
-//     e.preventDefault();
+    // 고유의 기능을 막아준다.(a 태그)
+    e.preventDefault();
 
-//     // 화면의 높이값
-//     let ht = $(window).height();
-//     // 클릭한 요소의 인덱스 값
-//     let i = $(this).index();
-//     // 인덱스 값 * 화면의 높이 값
-//     let nowTop = i * ht;
-//     // 해당 위치로 스크롤 이동
-//     $('html, body').stop().animate({scrollTop : nowTop}, 1400);
+    // 화면의 높이값
+    let ht = $(window).height();
+    // 클릭한 요소의 인덱스 값
+    let i = $(this).index();
+    // 인덱스 값 * 화면의 높이 값
+    let nowTop = i * ht;
+    // 해당 위치로 스크롤 이동
+    $('html, body').stop().animate({scrollTop : nowTop}, 1400);
 
   });
